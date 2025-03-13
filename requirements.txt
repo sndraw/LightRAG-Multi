@@ -13,8 +13,7 @@ tenacity
 
 # LLM packages
 tiktoken
+xlsxwriter>=3.1.0
 
 # Extra libraries are installed when needed using pipmaster
-sqlalchemy
-
 graspologic>=3.4.1
