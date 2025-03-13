@@ -18,3 +18,5 @@ pytz
 tenacity
 tiktoken
 uvicorn
+ollama
+sqlalchemy

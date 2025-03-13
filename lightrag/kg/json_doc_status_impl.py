@@ -134,5 +134,3 @@ class JsonDocStatusStorage(DocStatusStorage):
     async def get_all_docs(self) -> Dict[str, DocProcessingStatus]:
         """Get all documents"""
         return {k: v for k, v in self._data.items()}
-            await set_all_update_flags(self.namespace)
-        await self.index_done_callback()
