@@ -16,4 +16,5 @@ tiktoken
 
 # Extra libraries are installed when needed using pipmaster
 sqlalchemy
-nano-vectordb
+
+graspologic>=3.4.1
